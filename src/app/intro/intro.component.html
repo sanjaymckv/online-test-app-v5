@@ -1,0 +1,14 @@
+<mat-card>
+	<mat-card-title>Welcome to online mock test</mat-card-title>
+     <mat-card-subtitle>
+          <span class="subtitle1">This test has English and Match subjects for grade 5 </span><br>
+          <span class="subtitle2">Each subject has 10 questions with multiple choice answers</span>
+        </mat-card-subtitle>
+	<mat-card-content>
+		<form [formGroup]="form" (ngSubmit)="submit()">
+			<div class="button">
+				<button type="submit" mat-button>Click to start</button>
+			</div>
+		</form>
+	</mat-card-content>
+</mat-card>
